@@ -1,4 +1,22 @@
 {
+  "name": "schuurmans-web-development/wordpress",
+  "type": "wordpress-plugin",
+  "description": "Enhanced WordPress",
+  "keywords": [
+    "SWD",
+    "Schuurmans",
+    "Schuurmans Web Development"
+  ],
+  "homepage": "https://www.luukschuurmans.dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luuk Schuurmans",
+      "email": "info@luukschuurmans.dev",
+      "homepage": "https://www.luukschuurmans.dev",
+      "role": "Developer"
+    }
+  ],
   "repositories": [
     {
       "type": "composer",

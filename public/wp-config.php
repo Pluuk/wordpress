@@ -39,17 +39,7 @@ $table_prefix  = 'wp_';
 // ===================================================
 // Load database info and local development parameters
 // ===================================================
-if ( file_exists( dirname( __FILE__ ) . '/../wp-config-production.php' ) ) {
-    define( 'WP_LOCAL_DEV', false );
-    include( dirname( __FILE__ ) . '/../wp-config-production.php' );
-} else if (file_exists( dirname( __FILE__ ) . '/../wp-config-staging.php' )){
-    define( 'WP_LOCAL_DEV', false );
-    include( dirname( __FILE__ ) . '/../wp-config-staging.php' );
-} else {
-    define( 'WP_LOCAL_DEV', true );
-    include( dirname( __FILE__ ) . '/../wp-config-local.php' );
-}
-
+include( dirname( __FILE__ ) . '/../wp-config.php' );
 
 
 if ( ! defined( 'ABSPATH' ) ) {
