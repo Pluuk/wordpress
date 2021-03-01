@@ -5,22 +5,24 @@
   "keywords": [
     "SWD",
     "Schuurmans",
-    "Schuurmans Web Development"
+    "Schuurmans Web Development",
+    "DieSite",
+    "WordPress"
   ],
-  "homepage": "https://www.luukschuurmans.dev",
+  "homepage": "https://www.diesite.nl",
   "license": "MIT",
   "authors": [
     {
       "name": "Luuk Schuurmans",
-      "email": "info@luukschuurmans.dev",
-      "homepage": "https://www.luukschuurmans.dev",
+      "email": "luuk@diesite.nl",
+      "homepage": "https://www.diesite.nl",
       "role": "Developer"
     }
   ],
   "repositories": [
     {
       "type": "composer",
-      "url": "http://wpackagist.org"
+      "url": "https://wpackagist.org"
     }
   ],
   "require": {

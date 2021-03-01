@@ -231,7 +231,7 @@ node_modules/
 ### CUSTOM ###
 /.idea
 build.sh
-wp-config-*.php
+wp-config.php
 !wp-config-example.php
 /public/wp
 /public/wp-content/languages/plugins/*
